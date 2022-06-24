@@ -9,11 +9,12 @@
     <link rel="icon" href="./images/bumlogo.ico">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
 <body>
-
+    
 
     <header>
         <div class="logo">
@@ -33,23 +34,26 @@
 
     </header>
     <main class="main">
-        
-    <section class="section-inicio"> 
+
+      
+  <!--ANIMACIONES-->
+    <section  class="section-inicio"> 
             
-         <h2 class="h2-section-inicio">Maximiza tu rendimiento al maximo</h2>
-             <p class="p-section-inicio"> Los suplementos para recuperación tienen la principal finalidad contribuir a recuperar al organismo
+         <h2 data-aos="flip-up" class="h2-section-inicio">Maximiza tu rendimiento al maximo</h2>
+             <p data-aos="flip-up" class="p-section-inicio"> Los suplementos para recuperación tienen la principal finalidad contribuir a recuperar al organismo
                     de
                     la actividad física, permitiendo la síntesis de nuevas estructuras, como fibras musculares, hormonas
                     y
             energía.</p>
-            <img class="img__section_inicio" src="./images/Suplementos.jpg" alt="Imagen de suplementos" />
+            <img data-aos="flip-up" class="img__section_inicio" src="./images/Suplementos.jpg" alt="Imagen de suplementos" />
     </section> 
     <section class="sectionTexto">        
 
         <p class="P-sectionTexto">Los suplementos deportivos se consideran suplementos dietéticos o alimenticios. Los suplementos
                     alimenticios son productos que se toman por vía oral (por la boca) para complementar la dieta.</p>
         <img class="img__section_bakcground" src="./images/background.jpg"  alt="Imagen de suplementos"/>
-    </section>               
+    </section> 
+          
 
                 
                 
@@ -82,6 +86,12 @@
 
 
     </footer>
+ 
+    
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
 
 </body>
 
