@@ -1,3 +1,18 @@
+.btn {
+  border: 0;
+  border-radius: 4px;
+  height: 40px;
+  width: 150px; }
+  .btn--red {
+    background-color: red;
+    color: white; }
+  .btn--blue {
+    background-color: blue;
+    color: white; }
+  .btn--big {
+    height: 80px;
+    width: 190px; }
+
 header {
   background-color: red;
   color: blue; }
