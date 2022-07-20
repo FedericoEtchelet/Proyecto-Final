@@ -1,24 +1,101 @@
-@import "./views/buttons";
-
-@import "./views/variables";
 
 
+$color-principal: #7952b3;
+$color-principal2: #ffe484;
+$fuente: 'Patua One', cursive;
 
-
-$coloruno: rgb(124, 7, 7);
-
-
-
-@import "./views/header";
-h1,
-h2,
-h3,
-h4,
-h5{
-    background-color: $coloruno;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $fuente;
+    font-size: 18px;
 }
 
-p{
-    color: blue;
+.navbar{
+    background-color: $color-principal;
+    
 }
+
+nav ul  li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: $color-principal2;
+}
+
+.h2-productos{
+    text-align: center;
+}
+
+
+.form-register{
+    width: 400px;
+    background-color: $color-principal;
+    padding: 30px;
+     margin: auto;
+    margin-top: 100px;
+    border-radius:4px;
+    color: white;
+    box-shadow: 7px 13px 37px rgb(101, 10, 221);
+    &__h4{
+        font-size: 22px;
+        margin-bottom: 20px;
+
+    }
+    
+
+
+}
+
+.form-register .botoms{
+    width: 100%;
+    background-color: rgb(125, 55, 143);
+    color: rgb(255, 255, 255);
+    border: none;
+    margin: 16px 0;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.controls{
+    width: 100%;
+    background-color: $color-principal;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $color-principal2;
+}
+   
+
+
+footer{
+    background-color: $color-principal;
+    margin-top: 30px;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
