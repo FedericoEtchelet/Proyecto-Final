@@ -11,13 +11,19 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
+<!--HEADER-NAV-->
+
     <header>
         
-        <nav class="navbar navbar-expand-lg  ">
-            <h1 class="navbar-brand">Cbum Nutrition</h1>
+      <nav class="navbar navbar-expand-lg">
+        <div class="logo">
+         <a href="./pages/preguntas.html"><img  src="../images/bumlogo.ico"></a>
+         <h2 class="cbum-logo">Cbum Nutrition</h2>
+        </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,10 +52,13 @@
             </div>
           </nav>
     </header>      
- <main class="main">
+    <div data-aos="fade-up"
+    data-aos-duration="3000">
+<!--SECTION-PREGUNTAS-FRECUENTES-->
+    
     <section class="preguntas-frecuentes">
         <article>
-            <h2>Que son los suplementos deportivos?</h2>
+            <h2 class="h2-frecuentes">Que son los suplementos deportivos?</h2>
 
             <p>Son productos alimentarios que se toman por vía oral y que tiene por finalidad suplementar tu
                 alimentación habitual.
@@ -62,13 +71,13 @@
                 Es importante recalcar que todo consumo de suplementos debe integrarse dentro de un plan de alimentación
                 variado, adecuado y completo y de un programa de entrenamiento acorde al objetivo del consumidor. Es
                 decir, la clave es la relación ALIMENTACIÓN - SUPLEMENTACION - ENTRENAMIENTO.</p>
-            <h2>Que son las proteinas en polvo?</h2>
+            <h2 class="h2-frecuentes">Que son las proteinas en polvo?</h2>
 
             <p>Los polvos son sencillamente proteínas concentras, aisladas o un blend, extraídas del suero de leche, de
                 la soja o de los huevos .Son naturales y resultan esenciales para hacer crecer los músculos o ayudar en
                 la recuperación de los mismos.</p>
 
-            <h2>Los suplementos son seguros y efectivos?</h2>
+            <h2 class="h2-frecuentes">Los suplementos son seguros y efectivos?</h2>
             <p>Es de vital importancia en la decisión de compra de suplementos dietarios, deportivos y/o alimentos
                 consumir productos aprobados por la autoridad sanitaria correspondiente. Todos los productos deben
                 contar con el Nro. de Registro Nacional RNE / RNPA.
@@ -79,34 +88,39 @@
 
                 Nuestros productos son elaborados de acuerdo a las exigencias del Codigo Alimentario Argentino (CAA),
                 son de libre circulación y se pueden comercializar en todo el Territorio de la República Argentina.</p>
-            <h2>Los productos tienen fecha de vencimiento?</h2>
+            <h2 class="h2-frecuentes">Los productos tienen fecha de vencimiento?</h2>
             <p>Si, la misma viene indicada en el envase de cada producto, en la base del mismo.Todos los productos que
                 se despachan desde nuestro depósito cuentan con un vencimiento prolongado que
                 permita su consumo en las dosis diarias recomendadas.</p>
             <h2>Pueden las personas embarazadas consumir suplementos?</h2>
             <p>No, los suplementos están contraindicados para embarazadas y personas en período de lactancia y lo mismo
                 viene indicado en los envases de los productos.</p>
-            <h2>Pueden las personas diabetica consumir suplementos?</h2>
+            <h2 class="h2-frecuentes">Pueden las personas diabetica consumir suplementos?</h2>
             <p>Los únicos productos contraindicados para diabéticos son aquellos que entre sus ingredientes tiene
                 carbohidratos o cromo. Siempre en las etiquetas de los envases se encuentran detallados los componentes
                 de cada producto, así como también si no son aptos para diabéticos.</p>
             
         </article>
     </section>
-</main>    
+
+   </div>
         
    
+<!--FOOTER-->
    
 <footer>
   <div class="container-flud  text-center p-3">
-    <p>Todos Los Derechos Reservados</p>
-    <a href="https://www.instagram.com/"target="_blank">Instagram</a>
-    <a href="https://www.facebook.com/"target="_blank">Facebook</a>
-    <a href="https://twitter.com/home" target="_blank">Twitter</a>
+    <h4>Todos Los Derechos Reservados</h4>
+    
   </div>
 
 
 </footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 
 </body>
 

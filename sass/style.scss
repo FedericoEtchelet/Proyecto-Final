@@ -14,21 +14,54 @@ body{
     font-size: 18px;
 }
 
+
+
 .navbar{
     background-color: $color-principal;
+    align-items: center;
     
+    
+}
+nav ul li{
+    padding: 20px;
 }
 
 nav ul  li a{
     color: white;
+    
 }
 
 nav ul li a:hover{
     color: $color-principal2;
 }
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
 
-.h2-productos{
-    text-align: center;
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.Cbum-logo{
+    font-size: 5px;
+    color: white;
+}
+
+
+
+
+.card{
+    width: auto;
+    margin: 50px;
+    padding: 30px;
+    background-color: $color-principal;
+    color: white;
+
+  
+
 }
 
 
@@ -51,6 +84,8 @@ nav ul li a:hover{
 
 }
 
+
+
 .form-register .botoms{
     width: 100%;
     background-color: rgb(125, 55, 143);
@@ -69,12 +104,45 @@ nav ul li a:hover{
     margin-bottom: 16px;
     border: 1px solid $color-principal2;
 }
+
+.section-nosotros{
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    border: 20px solid $color-principal;
+    background-color: $color-principal2;
+    color: black;
+}
+
+.h2-nosotros{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.9em;
+  
+}
+
+
+.preguntas-frecuentes{
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+    border: 20px solid $color-principal;
+    background-color: $color-principal2;
+
+}
+
+.h2-frecuentes{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.9em;
+}
    
 
 
 footer{
     background-color: $color-principal;
     margin-top: 30px;
+    color: white;
     
     
     
