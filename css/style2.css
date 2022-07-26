@@ -8,7 +8,11 @@ body {
   font-size: 18px; }
 
 .navbar {
-  background-color: #7952b3; }
+  background-color: #7952b3;
+  align-items: center; }
+
+nav ul li {
+  padding: 20px; }
 
 nav ul li a {
   color: white; }
@@ -16,8 +20,24 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffe484; }
 
-.h2-productos {
-  text-align: center; }
+.logo {
+  display: flex;
+  align-items: center; }
+
+.logo img {
+  height: 50px;
+  margin-right: 10px; }
+
+.Cbum-logo {
+  font-size: 5px;
+  color: white; }
+
+.card {
+  width: auto;
+  margin: 50px;
+  padding: 30px;
+  background-color: #7952b3;
+  color: white; }
 
 .form-register {
   width: 400px;
@@ -49,6 +69,32 @@ nav ul li a:hover {
   margin-bottom: 16px;
   border: 1px solid #ffe484; }
 
+.section-nosotros {
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  border: 20px solid #7952b3;
+  background-color: #ffe484;
+  color: black; }
+
+.h2-nosotros {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.9em; }
+
+.preguntas-frecuentes {
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  border: 20px solid #7952b3;
+  background-color: #ffe484; }
+
+.h2-frecuentes {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.9em; }
+
 footer {
   background-color: #7952b3;
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: white; }

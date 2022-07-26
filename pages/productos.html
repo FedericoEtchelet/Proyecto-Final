@@ -11,14 +11,20 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 
 <body>
+  <!--HEADER-NAV-->
     <header>
         
-        <nav class="navbar navbar-expand-lg  ">
-            <h1 class="navbar-brand">Cbum Nutrition</h1>
+      <nav class="navbar navbar-expand-lg">
+        <div class="logo">
+         <a href="./pages/productos.html"><img  src="../images/bumlogo.ico"></a>
+         <h2 class="cbum-logo">Cbum Nutrition</h2>
+        </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -48,9 +54,13 @@
           </nav>
     </header> 
 
-    <h2 class="h2-productos">PRODUCTOS</h2>
+    
+  </div>
 
       <!--Tarjeta 1-->
+      
+    <div data-aos="fade-up"
+    data-aos-duration="3000">     
       <div class="card-deck">
         <div class="card">
           <img src="../images/product 1.jpg" class="card-img-top" style="width: 18rem;" alt="producto-1">
@@ -155,6 +165,7 @@
           </div>
         </div>
       </div> 
+     </div> 
       
       
 </main>        
@@ -163,15 +174,16 @@
       
 <footer>
   <div class="container-flud  text-center p-3">
-    <p>Todos Los Derechos Reservados</p>
-    <a href="https://www.instagram.com/"target="_blank">Instagram</a>
-    <a href="https://www.facebook.com/"target="_blank">Facebook</a>
-    <a href="https://twitter.com/home" target="_blank">Twitter</a>
-  </div>
+    <h4>Todos Los Derechos Reservados</h4>
+    
 
-
+<!--FOOTER-->
 </footer>
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 
